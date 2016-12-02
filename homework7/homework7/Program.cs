@@ -13,7 +13,7 @@ namespace homework7
 
 
 
-
+            Console.ReadLine();
 
         }
     }
