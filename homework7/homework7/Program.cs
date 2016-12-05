@@ -36,15 +36,27 @@ namespace homework7
             InsertionSorter.Sort();
             InsertionSorter.Print();
 
+            //*******************************************************//
+            // Stack
+            //*******************************************************//
+
+            int put = 789;
+            Console.WriteLine("************************");
+            Console.WriteLine("******My Stack************");
+            int[] array3 = new int[] { 0, 0, 0, 0, 0 };
+
+            var MyStack = new MyStack<int>(array3);
+            
+                        MyStack.Print();
+                        MyStack.put = 789;                  // debug value
+                        MyStack.Push();
+                        MyStack.Print();
+                        MyStack.Peek();
+                        MyStack.Pop();
+                       
 
 
-
-
-
-
-
-
-
+        
 
 
 

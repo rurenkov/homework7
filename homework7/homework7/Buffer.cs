@@ -10,8 +10,6 @@ namespace homework7
     {
 
         public T[]Array;
-
-
         public int head;
         public int free;
         public T put;
@@ -22,32 +20,13 @@ namespace homework7
             
             free = Array.Length - head;
         }
+        
 
-        void IBuffer<T>.ParceD()
-        {
-            
-        }
+      
+        public abstract bool IsFull();
+        public abstract bool IsEmpty();
+        public abstract void Print();
+        
 
-        void IPrintable.Print()
-        { }
-
-        bool IBuffer<T>.IsEmpty()
-        {
-        return true;
-        }
-
-        bool IBuffer<T>.IsFull()
-        {
-            return true;
-        }
-        void IBuffer<T>.Peek()
-        {
-            
-        }
-
-        void IBuffer<T>.Buffer()
-        {
-            throw new NotImplementedException();
-        }
     }
 }

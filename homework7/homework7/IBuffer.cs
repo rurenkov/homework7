@@ -9,11 +9,10 @@ namespace homework7
     public interface IBuffer <T>:IPrintable
     {
 
-        void Buffer();
-        void ParceD();
+    
         bool IsFull();
         bool IsEmpty();
-        void Peek();
+        
 
 
 

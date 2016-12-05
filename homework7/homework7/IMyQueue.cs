@@ -6,10 +6,10 @@ using System.Threading.Tasks;
 
 namespace homework7
 {
-  public  interface IMyStack<T>: IBuffer<T>
+   public interface IMyQueue<T>:IBuffer<T>
+
     {
-        void Push();
-        T Pop();
-        T Peek();
+       void Enqueue();
+        void Dequeue();
     }
 }
