@@ -6,9 +6,12 @@ using System.Threading.Tasks;
 
 namespace homework7
 {
-    public  interface IPrintable
+  public  interface IMyStack<T>: IPrintable 
     {
-         void Print();
+        void Print();
+        void Push();
+        void Pop();
+
+
     }
-    
 }
