@@ -8,7 +8,7 @@ namespace homework7
 {
   public  interface IMyStack<T>: IBuffer<T>
     {
-        void Push();
+        void Push(T put);
         T Pop();
         T Peek();
     }

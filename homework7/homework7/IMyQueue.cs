@@ -9,7 +9,7 @@ namespace homework7
    public interface IMyQueue<T>:IBuffer<T>
 
     {
-       void Enqueue();
+       void Enqueue(T put);
         void Dequeue();
     }
 }

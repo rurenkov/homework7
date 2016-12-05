@@ -47,7 +47,7 @@ namespace homework7
         //*******************************************************//
         // push method;
         //*******************************************************//
-        public  void Push()
+        public  void Push(T put)
         {
 
             if (top != Array.Length)

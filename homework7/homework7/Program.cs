@@ -49,17 +49,11 @@ namespace homework7
             
                         MyStack.Print();
                         MyStack.put = 789;                  // debug value
-                        MyStack.Push();
+                        MyStack.Push(put);
                         MyStack.Print();
                         MyStack.Peek();
                         MyStack.Pop();
-                       
-
-
-        
-
-
-
+                
             Console.ReadLine();
         }
        

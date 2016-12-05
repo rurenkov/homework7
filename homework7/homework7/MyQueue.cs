@@ -11,6 +11,7 @@ namespace homework7
 
                
         public int tail;
+      
 
         public MyQueue(T[] array) : base(array)
         {
@@ -38,7 +39,7 @@ namespace homework7
             return true;
         }
 
-        public void Enqueue()
+        public void Enqueue(T put)
         {
             if (free > 0)
             {
